@@ -1,0 +1,30 @@
+{
+  "name": "sievedns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainvg/sievedns"
+  },
+  "keywords": [
+    "rain",
+    "sievedns"
+  ],
+  "bugs": {
+    "url": "https://github.com/rainvg/sievedns/issues"
+  },
+  "homepage": "https://github.com/rainvg/sievedns#readme",
+  "author": "rainvg (https://github.com/rainvg)",
+  "license": "MIT",
+  "dependencies": {
+    "native-dns": "^0.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.4"
+  }
+}
