@@ -21,8 +21,6 @@ function dns(port, ip)
     {
       if(!sieve.regex.test(request.question[0].name))
       {
-        console.log("Forwarding ", request.question[0].name);
-
         var _req = nativedns.Request({
           question: request.question[0],
           server: { address: '8.8.8.8', port: 53, type: 'udp' },
