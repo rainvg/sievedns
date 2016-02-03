@@ -1,4 +1,6 @@
 {
+    // JSHint Default Configuration File
+
     "maxerr"        : 50,       // {int} Maximum error before stopping
 
     // Enforcing
@@ -16,7 +18,7 @@
     "nonbsp"        : true,     // true: Prohibit "non-breaking whitespace" characters.
     "nonew"         : false,    // true: Prohibit use of constructors for side-effects (without assignment)
     "plusplus"      : false,    // true: Prohibit use of `++` and `--`
-    "quotmark"      : false,    // Quotation mark consistency:
+    "quotmark"      : "single",    // Quotation mark consistency:
                                 //   false    : do nothing (default)
                                 //   true     : ensure whatever is used is consistent
                                 //   "single" : require single quotes
@@ -59,7 +61,7 @@
     "shadow"        : true,     // true: Allows re-define variables later in code e.g. `var x=1; x=2;`
     "sub"           : true,     // true: Tolerate using `[]` notation when it can still be expressed in dot notation
     "supernew"      : false,     // true: Tolerate `new function () { ... };` and `new Object;`
-    "validthis"     : false,     // true: Tolerate using this in a non-constructor function
+    "validthis"     : true,     // true: Tolerate using this in a non-constructor function
 
     // Environments
     "browser"       : true,     // Web Browser (window, document, etc)
@@ -84,5 +86,8 @@
     "yui"           : false,    // Yahoo User Interface
 
     // Custom Globals
-    "globals"       : {}        // additional predefined global variables
+    "globals"       : {},        // additional predefined global variables
+    "predef" : [
+      "Promise"
+    ]
 }
